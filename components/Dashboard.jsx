@@ -16,7 +16,7 @@ export default async function Dashboard(props) {
 	const vrooms = await getVrooms(props.user.userId);
 	return (
 		<>
-			<h2 className="text-center text-2xl text-gray-500 mb-5">Your Cars</h2>
+			<h2 className="text-center text-2xl text-gray-500 mb-5">Your Vehicles</h2>
 			{/* <table className="table">
 				<thead>
 					<tr>
